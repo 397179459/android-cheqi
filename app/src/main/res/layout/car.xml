@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/car_name"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="汽车名称"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/car_color"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="车漆颜色"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/car_name"/>
+
+    <EditText
+        android:id="@+id/car_sm1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母1"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"/>
+    <EditText
+        android:id="@+id/car_sm2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母2"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"
+        android:layout_below="@id/car_sm1"/>
+    <EditText
+        android:id="@+id/car_sm3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母3"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"
+        android:layout_below="@id/car_sm2"/>
+    <EditText
+        android:id="@+id/car_sm4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母4"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"
+        android:layout_below="@id/car_sm3"/>
+    <EditText
+        android:id="@+id/car_sm5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母5"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"
+        android:layout_below="@id/car_sm4"/>
+    <EditText
+        android:id="@+id/car_sm6"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母6"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"
+        android:layout_below="@id/car_sm5"/>
+    <EditText
+        android:id="@+id/car_sm7"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:hint="色母7"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/car_name"
+        android:layout_below="@id/car_sm6"/>
+
+    <Button
+        android:id="@+id/btn_add_car"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="添  加"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/car_sm7"
+        android:text="打   印"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_link"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_print"
+        android:text="连接至电子秤"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_shop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_link"
+        android:text="在 线 选 购"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wang.peise.JisuanActivity"
+    android:paddingLeft="50dp"
+    android:paddingTop="10dp">
+
+    <EditText
+        android:id="@+id/sz_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:hint="g" />
+    <EditText
+        android:id="@+id/jg_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_1"
+        android:layout_marginLeft="40dp"
+        android:hint="元" />
+    <EditText
+        android:id="@+id/sz_2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/sz_1" />
+    <EditText
+        android:id="@+id/jg_2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_2"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/jg_1" />
+    <EditText
+        android:id="@+id/sz_3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/sz_2" />
+    <EditText
+        android:id="@+id/jg_3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_3"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/jg_2" />
+    <EditText
+        android:id="@+id/sz_4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/sz_3" />
+    <EditText
+        android:id="@+id/jg_4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_4"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/jg_3" />
+    <EditText
+        android:id="@+id/sz_5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/sz_4" />
+    <EditText
+        android:id="@+id/jg_5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_5"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/jg_4" />
+    <EditText
+        android:id="@+id/sz_6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/sz_5" />
+    <EditText
+        android:id="@+id/jg_6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_6"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/jg_5" />
+    <EditText
+        android:id="@+id/sz_7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/sz_6" />
+    <EditText
+        android:id="@+id/jg_7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:layout_toRightOf="@id/sz_7"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/jg_6" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sz_7"
+        android:layout_marginTop="30dp"
+        android:text="预 算"
+        android:textSize="25sp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_below="@id/btn"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:textSize="23sp"
+        android:background="#EEEEEE"
+        android:paddingLeft="10dp"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

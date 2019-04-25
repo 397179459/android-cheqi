@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wang.peise.CallActivity"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:text="请将您的宝贵意见发送至 397179459@qq.com"
+        android:textSize="28sp"
+        android:gravity="bottom"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="帮助与支持\n@在此感谢\n保鸿涂料有限公司提供的配色信息\n福步外贸论坛提供的在线取色系统\nPANTONE潘通公司提供的色卡\n……"
+        android:textSize="25sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"/>
+
+
+
+</LinearLayout>

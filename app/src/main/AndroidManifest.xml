@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wang.peise">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tubiao"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PeiseActivity" />
+        <activity android:name=".CarActivity" />
+        <activity android:name=".JisuanActivity"
+            android:label="报价预算"/>
+        <activity android:name=".QuseActivity" />
+        <activity android:name=".SekaActivity" />
+        <activity android:name=".PhotoActivity" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".ShopActivity" />
+        <activity android:name=".Shop1Activity" />
+        <activity android:name=".Shop2Activity" />
+        <activity android:name=".Register"
+            android:label="用户注册"/>
+        <activity android:name=".Resetpwd"
+            android:label="修改密码"></activity>
+    </application>
+
+</manifest>
